@@ -1,43 +1,55 @@
 ## textmode.art
 
-`textmode.art` is a browser-native creative coding ecosystem for real-time ASCII and textmode graphics.
+`textmode.art` is a browser-native creative-coding ecosystem for real-time ASCII and textmode graphics.
 
-It brings together the core rendering library, official add-ons, browser-based tools, and public docs needed to create, experiment with, perform, and share textmode work on the modern web.
+It brings together `textmode.js`, official add-ons, browser-based tools, examples, and documentation for creating, experimenting with, performing, and sharing textmode work on the modern web.
 
 ### Start here
 
-- Docs: [code.textmode.art](https://code.textmode.art)
-- API: [code.textmode.art/api](https://code.textmode.art/api)
-- Web editor: [editor.textmode.art](https://editor.textmode.art)
-- Core package: [`textmode.js` on npm](https://www.npmjs.com/package/textmode.js)
-- Starter CLI: [`create-textmode` on npm](https://www.npmjs.com/package/create-textmode)
+- [Documentation](https://code.textmode.art)
+- [API reference](https://code.textmode.art/api)
+- [Web editor](https://editor.textmode.art)
+- [Live examples](https://examples.textmode.art)
+- [`textmode.js` on npm](https://www.npmjs.com/package/textmode.js)
+- [`create-textmode` on npm](https://www.npmjs.com/package/create-textmode)
 
-### Core projects
+### Libraries
 
-- [`humanbydefinition/textmode.js`](https://github.com/humanbydefinition/textmode.js) for drawing, animation, layering, shaders, media conversion, and interaction
-- [`humanbydefinition/textmode.export.js`](https://github.com/humanbydefinition/textmode.export.js) for TXT, SVG, image, GIF, and WebM export
-- [`humanbydefinition/textmode.filters.js`](https://github.com/humanbydefinition/textmode.filters.js) for GPU-powered post-processing effects
-- [`humanbydefinition/textmode.synth.js`](https://github.com/humanbydefinition/textmode.synth.js) for Hydra-inspired visual synthesis and procedural pattern generation
-- [`humanbydefinition/create-textmode`](https://github.com/humanbydefinition/create-textmode) for scaffolding new projects quickly
+- [`humanbydefinition/textmode.js`](https://github.com/humanbydefinition/textmode.js)<br>
+  Core rendering, animation, and interaction.
+- [`humanbydefinition/textmode.export.js`](https://github.com/humanbydefinition/textmode.export.js)<br>
+  TXT, SVG, image, GIF, and video export.
+- [`humanbydefinition/textmode.filters.js`](https://github.com/humanbydefinition/textmode.filters.js)<br>
+  GPU-powered post-processing effects.
+- [`humanbydefinition/textmode.synth.js`](https://github.com/humanbydefinition/textmode.synth.js)<br>
+  Visual synthesis and procedural patterns.
+- [`humanbydefinition/textmode.figlet.js`](https://github.com/humanbydefinition/textmode.figlet.js)<br>
+  FIGlet font support for textmode.js.
 
-### Surfaces and tools
+### Tools and documentation
 
-- [`humanbydefinition/code.textmode.art`](https://github.com/humanbydefinition/code.textmode.art) for documentation, examples, gallery, and API reference
-- [`humanbydefinition/synth.textmode.art`](https://github.com/humanbydefinition/synth.textmode.art) for browser-based synthesis and live experimentation with `textmode.js` and `textmode.synth.js`
-- [editor.textmode.art](https://editor.textmode.art) for zero-setup sketching in the browser
+- [`humanbydefinition/code.textmode.art`](https://github.com/humanbydefinition/code.textmode.art)<br>
+  Documentation, guides, API reference, and gallery.
+- [`humanbydefinition/editor.textmode.art`](https://github.com/humanbydefinition/editor.textmode.art)<br>
+  Browser editor and live-coding environment.
+- [`humanbydefinition/examples.textmode.art`](https://github.com/humanbydefinition/examples.textmode.art)<br>
+  Live, editable example explorer.
+- [`humanbydefinition/create-textmode`](https://github.com/humanbydefinition/create-textmode)<br>
+  CLI for scaffolding new projects.
 
 ### Why this exists
 
 Textmode graphics deserve first-class tools.
 
-This organization exists to build a coherent stack for text-based visual work on the modern web: fast rendering, approachable APIs, live experimentation, reusable add-ons, and a public documentation surface that makes the ecosystem easy to learn.
+This organization builds a coherent stack for text-based visual work on the modern web: fast rendering, approachable APIs, reusable add-ons, live experimentation, and public documentation that makes the ecosystem easy to learn and extend.
 
 ### Community
 
-- Share work with `#textmodejs`
-- Join the Discord: [discord.gg/sjrw8QXNks](https://discord.gg/sjrw8QXNks)
-- Explore examples: [code.textmode.art/docs/examples](https://code.textmode.art/docs/examples)
+- Share work with [`#textmodejs`](https://www.instagram.com/explore/tags/textmodejs/)
+- Join the [Discord](https://discord.gg/sjrw8QXNks)
+- Explore and remix [live examples](https://examples.textmode.art)
+- Browse the [community gallery](https://code.textmode.art/gallery)
 
 ### Lineage
 
-`textmode.js` grew out of lessons learned from [`humanbydefinition/p5.asciify`](https://github.com/humanbydefinition/p5.asciify), but it is now an independent, framework-agnostic system designed for vanilla canvas workflows as well as tools like p5.js, Three.js, Hydra, video, and live-coding environments.
+`textmode.js` grew out of lessons learned from [`humanbydefinition/p5.asciify`](https://github.com/humanbydefinition/p5.asciify). It is now an independent, framework-agnostic system for vanilla canvas workflows and integrations with tools such as p5.js, Three.js, video, and live-coding environments.
