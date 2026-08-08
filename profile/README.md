@@ -9,7 +9,6 @@ It brings together `textmode.js`, official add-ons, browser-based tools, example
 - [Documentation](https://code.textmode.art)
 - [API reference](https://code.textmode.art/api)
 - [Web editor](https://editor.textmode.art)
-- [Live examples](https://examples.textmode.art)
 - [`textmode.js` on npm](https://www.npmjs.com/package/textmode.js)
 - [`create-textmode` on npm](https://www.npmjs.com/package/create-textmode)
 
@@ -32,8 +31,6 @@ It brings together `textmode.js`, official add-ons, browser-based tools, example
   Documentation, guides, API reference, and gallery.
 - [`humanbydefinition/editor.textmode.art`](https://github.com/humanbydefinition/editor.textmode.art)<br>
   Browser editor and live-coding environment.
-- [`humanbydefinition/examples.textmode.art`](https://github.com/humanbydefinition/examples.textmode.art)<br>
-  Live, editable example explorer.
 - [`humanbydefinition/create-textmode`](https://github.com/humanbydefinition/create-textmode)<br>
   CLI for scaffolding new projects.
 
