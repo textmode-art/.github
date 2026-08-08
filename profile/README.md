@@ -42,9 +42,8 @@ This organization builds a coherent stack for text-based visual work on the mode
 
 ### Community
 
-- Share work with [`#textmodejs`](https://www.instagram.com/explore/tags/textmodejs/)
+- Share work with `#textmodejs`
 - Join the [Discord](https://discord.gg/sjrw8QXNks)
-- Explore and remix [live examples](https://examples.textmode.art)
 - Browse the [community gallery](https://code.textmode.art/gallery)
 
 ### Lineage
